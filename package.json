@@ -1,0 +1,43 @@
+{
+  "name": "partify",
+  "version": "3.1.5",
+  "description": "require()-able HTML, CSS, and (potentially) more",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bclinkinbeard/partialify"
+  },
+  "keywords": [
+    "browser",
+    "browserify",
+    "browserify-transform",
+    "require",
+    "static",
+    "asset",
+    "bundle",
+    "partial"
+  ],
+  "author": "Ben Clinkinbeard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bclinkinbeard/partialify/issues"
+  },
+  "dependencies": {
+    "string-to-js": "0.0.1",
+    "through": "^2.3.4"
+  },
+  "devDependencies": {
+    "async": "^1.5.0",
+    "browserify": ">=3.24.1 <9.0.0",
+    "gulp-minify-html": "^1.0.4",
+    "gulp-template": "^3.1.0",
+    "html-minifier": "^1.0.0",
+    "minimize": "^1.7.4",
+    "partialify": "^3.1.5",
+    "tape": "^3.2.0",
+    "through2": "^2.0.0"
+  }
+}
