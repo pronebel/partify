@@ -54,7 +54,7 @@ var aaa = function (file, opts) {
 
             var self = this;
             if (buffer.indexOf('module.exports') === 0) {
-                self.queue(buffer); // prevent "double" transforms
+                self.queue(buffer);
                 self.queue(null);
             } else {
                 minimize(buffer, function (err, text) {
